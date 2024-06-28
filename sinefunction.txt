@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+/*Important hearder files*/
+int main()
+/*to print sine function for input x*/
+{
+	double x;
+	double result=0; // identifier names
+	printf("enter the value of x between 0 	and 1");
+	scanf("%lf",&x);
+	result=sin(x); //equation for finding the result
+	printf("the value of sine function is %lf",result);
+	return 0;
+}

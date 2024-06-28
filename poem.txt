@@ -1,0 +1,18 @@
+#include<studio.h>
+#include<stdlib.h>
+int main()
+{
+	printf("And who are you, the proud lord said,\n
+That I must bow so low?\n
+Only a cat of a different coat,\n
+That's all the truth I know.\n
+In a coat of gold or a coat of red,\n
+A lion still has claws,\n
+And mine are long and sharp, my lord,\n
+As long and sharp as yours.\n
+And so he spoke, and so he spoke,\n
+That lord of Castamere,\n
+But now the rains weep o'er his hall,\n
+With no one there to hear.\n");
+return 0;
+}

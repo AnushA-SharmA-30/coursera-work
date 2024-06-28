@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>/*includes sine and cosine functions*/
+int main(void)
+{
+	double value,i,sine,cosine;//valid identifiers
+	
+	for(i=0;i<=10;i++)//for loop 
+		{
+			value=i/10.0;
+			sine=sin(value);
+			cosine=cos(value);
+			printf("%lf=sine value /t %lf=cosine value",sine,cosine);
+		}
+
+return 0;
+}
